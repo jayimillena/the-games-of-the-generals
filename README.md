@@ -33,7 +33,7 @@ Pieces follow a strict hierarchy during combat. When two opposing pieces occupy 
 | **1LT** | 1st Lieutenant | 1 | Eliminates 2nd Lieutenant and below. |
 | **2LT** | 2nd Lieutenant | 1 | Eliminates Sergeant and Privates. |
 | **SGT** | Sergeant | 1 | Eliminates Privates only. |
-| **PVT** | Private | 6 | **Eliminates Spy. |
+| **PVT** | Private | 6 | Eliminates Spy. |
 | **SPY** | Spy | 2 | **Eliminates all Officers & Generals.** Eliminated **only** by Privates. |
 | **FLAG** | Flag | 1 | Eliminated by **any** piece. Cannot capture any piece. |
 
@@ -102,4 +102,5 @@ npm start
 ## 📄 License
 
 Distributed under the MIT License. See `LICENSE` for more information."# the-games-of-the-generals" 
+"# the-games-of-the-generals" 
 "# the-games-of-the-generals" 
