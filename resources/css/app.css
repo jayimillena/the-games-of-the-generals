@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.board {
+    display: grid;
+    grid-template-columns: repeat(9, 80px);
+    grid-template-rows: repeat(8, 60px);
+    gap: 4px;
+    background-color: #374151; /* Dark Gray Board Base */
+    padding: 8px;
+    border-radius: 12px;
+}
+
+.cell {
+    width: 80px;
+    height: 60px;
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #d1d5db;
+    border-radius: 4px;
+    position: relative;
+}
+
+.dark .cell {
+    background-color: #1f2937;
+    border-color: #374151;
+}
+
+.piece {
+    width: 76px;
+    height: 52px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    user-select: none;
+    border: 2px solid #4b5563;
+    border-radius: 6px;
+}
+
+.player1 { border-color: #2563eb; }
+.player2 { border-color: #dc2626; }
+
+@media (max-width: 768px) {
+    .board {
+        grid-template-columns: repeat(9, 40px);
+        grid-template-rows: repeat(8, 40px);
+        gap: 2px;
+    }
+    .cell { width: 40px; height: 40px; }
+    .piece { width: 36px; height: 36px; }
+}
