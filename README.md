@@ -45,7 +45,7 @@ Pieces follow a strict hierarchy during combat. When two opposing pieces occupy 
 
 ### Prerequisites
 
-* [Node.js](https://nodejs.org/) (v16.0 or higher) *or* [Python](https://www.python.org/) (v3.8+) *(adjust based on your stack)*
+* [Node.js](https://nodejs.org/) (v16.0 or higher) *or* [Laravel ](https://laravel.com/) (v13+) *(adjust based on your stack)*
 * Git
 
 ### Installation
