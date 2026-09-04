@@ -101,6 +101,4 @@ npm start
 
 ## 📄 License
 
-Distributed under the MIT License. See `LICENSE` for more information."# the-games-of-the-generals" 
-"# the-games-of-the-generals" 
-"# the-games-of-the-generals" 
+Distributed under the MIT License. See `LICENSE` for more information. email me at jay.millena07@gmail.com
